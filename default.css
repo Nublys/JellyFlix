@@ -402,7 +402,7 @@ div#itemDetailPage {
 
 .layout-mobile .mainDetailButtons {
   z-index: 1;
-  margin: 0 5vw;
+  margin: 6vh 2vh 0vh 2vh;
   flex-flow: row;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -518,6 +518,10 @@ div#itemDetailPage {
   margin-top: 0 !important;
   height: 55vh !important;
   z-index: 1;
+}
+
+.layout-mobile .infoWrapper {
+  padding: 5vh 2vh 0vh 2vh;
 }
 
 .layout-mobile .detailPageWrapperContainer > * {
